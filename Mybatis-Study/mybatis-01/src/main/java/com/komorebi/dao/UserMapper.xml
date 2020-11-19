@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--命名空间 绑定一个对应的Mapper接口-->
+<mapper namespace="com.komorebi.dao.UserMapper">
+    <!--查询语句-->
+    <select id="getUserList" resultType="com.komorebi.pojo.User">
+        select * from mybatis.user;
+    </select>
+
+    <!--按指定ID查询语句-->
+    <select id="getUserById" parameterType="int" resultType="com.komorebi.pojo.User">
+        select * from mybatis.user where id = #{id};
+    </select>
+
+    <!--插入一个用户，对象中的属性，可以直接取出-->
+    <insert id="addUser" parameterType="com.komorebi.pojo.User">
+        insert into mybatis.user(id, name, pwd) values (#{id}, #{name}, #{pwd});
+    </insert>
+
+    <!--修改一个用户-->
+    <update id="updateUser" parameterType="com.komorebi.pojo.User">
+        update mybatis.user set name = #{name}, pwd = #{pwd}  where id = #{id};
+    </update>
+
+    <!--删除一个用户-->
+    <delete id="deleteUser" parameterType="int">
+        delete from mybatis.user where id = #{id};
+    </delete>
+
+    <!--万能Map-->
+    <insert id="addUser2" parameterType="map">
+        insert into mybatis.user(id, name, pwd) values (#{userID}, #{userName}, #{userPassword})
+    </insert>
+
+    <!--模糊查询-->
+    <select id="getUserLike" resultType="com.komorebi.pojo.User">
+        select * from mybatis.user where name like #{value};
+    </select>
+</mapper>

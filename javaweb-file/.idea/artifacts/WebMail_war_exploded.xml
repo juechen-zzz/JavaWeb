@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="WebMail:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/WebMail_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="WebMail/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="WebMail" />
+        </element>
+        <element id="library" level="project" name="lib (2)" />
+        <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:4.0.1" />
+      </element>
+    </root>
+  </artifact>
+</component>

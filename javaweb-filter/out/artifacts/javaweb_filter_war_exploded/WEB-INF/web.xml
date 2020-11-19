@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <!--注册Servlet，展示过滤器基本功能-->
+    <servlet>
+        <servlet-name>ShowServlet</servlet-name>
+        <servlet-class>com.komorebi.servlet.ShowServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ShowServlet</servlet-name>
+        <url-pattern>/show</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ShowServlet</servlet-name>
+        <url-pattern>/servlet/show</url-pattern>
+    </servlet-mapping>
+
+    <!--注册登录页面-->
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.komorebi.servlet.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/servlet/login</url-pattern>
+    </servlet-mapping>
+
+    <!--注册退出页面-->
+    <servlet>
+        <servlet-name>LogoutServlet</servlet-name>
+        <servlet-class>com.komorebi.servlet.LogoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogoutServlet</servlet-name>
+        <url-pattern>/servlet/logout</url-pattern>
+    </servlet-mapping>
+    
+    <filter>
+        <filter-name>SysFilter</filter-name>
+        <filter-class>com.komorebi.filter.SysFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>SysFilter</filter-name>
+        <url-pattern>/sys/*</url-pattern>
+    </filter-mapping>
+
+    <!--注册过滤器-->
+    <filter>
+        <filter-name>CharacterEncodingFilter</filter-name>
+        <filter-class>com.komorebi.filter.CharacterEncodingFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>CharacterEncodingFilter</filter-name>
+        <!--只要是Servlet的任何请求，都要过滤-->
+        <url-pattern>/servlet/*</url-pattern>
+    </filter-mapping>
+
+    <!--注册监听器-->
+    <listener>
+        <listener-class>com.komorebi.listener.OnlineCountListener</listener-class>
+    </listener>
+</web-app>
