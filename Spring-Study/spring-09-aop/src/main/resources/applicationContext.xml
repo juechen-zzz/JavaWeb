@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       https://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop
+       https://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <bean id="userService" class="com.komorebi.service.UserServiceImpl"/>
+    <bean id="log" class="com.komorebi.log.log"/>
+    <bean id="afterLog" class="com.komorebi.log.AfterLog"/>
+
+<!--    &lt;!&ndash;方式一：使用原生Spring API接口&ndash;&gt;-->
+<!--    &lt;!&ndash;配置aop:需要导入AOP的约束&ndash;&gt;-->
+<!--    <aop:config>-->
+<!--        &lt;!&ndash;切入点&ndash;&gt;-->
+<!--        <aop:pointcut id="pointcut" expression="execution(* com.komorebi.service.UserServiceImpl.*(..))"/>-->
+<!--        &lt;!&ndash;执行环绕增强&ndash;&gt;-->
+<!--        <aop:advisor advice-ref="log" pointcut-ref="pointcut"/>-->
+<!--        <aop:advisor advice-ref="afterLog" pointcut-ref="pointcut"/>-->
+<!--    </aop:config>-->
+
+<!--    &lt;!&ndash;方式二：自定义类&ndash;&gt;-->
+<!--    <bean id="diy" class="com.komorebi.diy.DiyPointCut"/>-->
+<!--    <aop:config>-->
+<!--        &lt;!&ndash;自定义切面，ref要引用的类&ndash;&gt;-->
+<!--        <aop:aspect ref="diy">-->
+<!--            &lt;!&ndash;切入点&ndash;&gt;-->
+<!--            <aop:pointcut id="point" expression="execution(* com.komorebi.service.UserServiceImpl.*(..))"/>-->
+<!--            &lt;!&ndash;通知&ndash;&gt;-->
+<!--            <aop:before method="before" pointcut-ref="point"/>-->
+<!--            <aop:after method="after" pointcut-ref="point"/>-->
+<!--        </aop:aspect>-->
+<!--    </aop:config>-->
+
+    <!--方式三：注解-->
+    <bean id="annotationPointCut" class="com.komorebi.diy.AnnotationPointCut"/>
+    <aop:aspectj-autoproxy/>
+</beans>
