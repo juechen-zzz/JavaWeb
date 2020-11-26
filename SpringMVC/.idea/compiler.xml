@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springmvc-05-controller" />
         <module name="springmvc-04-annotation" />
         <module name="springmvc-03-hellomvc2" />
         <module name="springmvc-01-servlet" />
         <module name="springmvc-02-hellomvc" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel target="8" />
   </component>
 </project>
