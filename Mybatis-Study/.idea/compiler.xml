@@ -7,15 +7,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mybatis-09" />
-        <module name="mybatis-08" />
-        <module name="mybatis-07" />
-        <module name="mybatis-06" />
-        <module name="mybatis-05" />
-        <module name="mybatis-04" />
-        <module name="mybatis-03" />
+        <module name="mybatis-06-moreOne" />
+        <module name="mybatis-07-oneMore" />
         <module name="mybatis-02" />
         <module name="mybatis-01" />
+        <module name="mybatis-09-cache" />
+        <module name="mybatis-08-dynamicSQL" />
+        <module name="mybatis-04-limit" />
+        <module name="mybatis-05-anno" />
+        <module name="mybatis-03-resultMap" />
       </profile>
     </annotationProcessing>
   </component>

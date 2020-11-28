@@ -14,6 +14,7 @@
         <module>springmvc-03-hellomvc2</module>
         <module>springmvc-04-annotation</module>
         <module>springmvc-05-controller</module>
+        <module>springmvc-06-json</module>
     </modules>
 
     <dependencies>

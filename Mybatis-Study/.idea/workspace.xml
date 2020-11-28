@@ -1,7 +1,145 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5db93170-457b-4c47-83ae-58db5be8b83a" name="Default Changelist" comment="" />
+    <list default="true" id="5db93170-457b-4c47-83ae-58db5be8b83a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC/.idea/SpringMVC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringMVC/springmvc-06-json/springmvc-06-json.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-02/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-02/target/classes/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-03/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-03-resultMap/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-03/src/main/java/com/komorebi/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-03-resultMap/src/main/java/com/komorebi/dao/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-03/src/main/java/com/komorebi/dao/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-03-resultMap/src/main/java/com/komorebi/dao/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-03/src/main/java/com/komorebi/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-03-resultMap/src/main/java/com/komorebi/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-03/src/main/java/com/komorebi/utils/MybatisUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-03-resultMap/src/main/java/com/komorebi/utils/MybatisUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-03/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-03-resultMap/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-03/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-03-resultMap/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-03/src/test/java/com/komorebi/dao/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-03-resultMap/src/test/java/com/komorebi/dao/UserDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-03/target/classes/com/komorebi/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-03-resultMap/target/classes/com/komorebi/dao/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-03/target/classes/com/komorebi/dao/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-03-resultMap/target/classes/com/komorebi/dao/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-03/target/classes/com/komorebi/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-03-resultMap/target/classes/com/komorebi/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-03/target/classes/com/komorebi/utils/MybatisUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-03-resultMap/target/classes/com/komorebi/utils/MybatisUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-03/target/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-03-resultMap/target/classes/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-03/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-03-resultMap/target/classes/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-03/target/test-classes/com/komorebi/dao/UserDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-03-resultMap/target/test-classes/com/komorebi/dao/UserDaoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-04/log/komorebi.log" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-04-limit/log/komorebi.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-04/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-04-limit/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-04/src/main/java/com/komorebi/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-04-limit/src/main/java/com/komorebi/dao/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-04/src/main/java/com/komorebi/dao/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-04-limit/src/main/java/com/komorebi/dao/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-04/src/main/java/com/komorebi/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-04-limit/src/main/java/com/komorebi/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-04/src/main/java/com/komorebi/utils/MybatisUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-04-limit/src/main/java/com/komorebi/utils/MybatisUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-04/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-04-limit/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-04/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-04-limit/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-04/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-04-limit/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-04/src/test/java/com/komorebi/dao/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-04-limit/src/test/java/com/komorebi/dao/UserDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-04/target/classes/com/komorebi/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-04-limit/target/classes/com/komorebi/dao/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-04/target/classes/com/komorebi/dao/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-04-limit/target/classes/com/komorebi/dao/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-04/target/classes/com/komorebi/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-04-limit/target/classes/com/komorebi/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-04/target/classes/com/komorebi/utils/MybatisUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-04-limit/target/classes/com/komorebi/utils/MybatisUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-04/target/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-04-limit/target/classes/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-04/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-04-limit/target/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-04/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-04-limit/target/classes/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-04/target/test-classes/com/komorebi/dao/UserDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-04-limit/target/test-classes/com/komorebi/dao/UserDaoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-05/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-05-anno/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-05/src/main/java/com/komorebi/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-05-anno/src/main/java/com/komorebi/dao/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-05/src/main/java/com/komorebi/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-05-anno/src/main/java/com/komorebi/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-05/src/main/java/com/komorebi/utils/MybatisUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-05-anno/src/main/java/com/komorebi/utils/MybatisUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-05/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-05-anno/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-05/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-05-anno/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-05/src/test/java/com/komorebi/dao/UserMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-05-anno/src/test/java/com/komorebi/dao/UserMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-05/target/classes/com/komorebi/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-05-anno/target/classes/com/komorebi/dao/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-05/target/classes/com/komorebi/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-05-anno/target/classes/com/komorebi/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-05/target/classes/com/komorebi/utils/MybatisUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-05-anno/target/classes/com/komorebi/utils/MybatisUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-05/target/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-05-anno/target/classes/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-05/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-05-anno/target/classes/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-05/target/test-classes/com/komorebi/dao/UserMapperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-05-anno/target/test-classes/com/komorebi/dao/UserMapperTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-06/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-06-moreOne/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-06/src/main/java/com/komorebi/dao/StudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-06-moreOne/src/main/java/com/komorebi/dao/StudentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-06/src/main/java/com/komorebi/dao/TeacherMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-06-moreOne/src/main/java/com/komorebi/dao/TeacherMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-06/src/main/java/com/komorebi/pojo/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-06-moreOne/src/main/java/com/komorebi/pojo/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-06/src/main/java/com/komorebi/pojo/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-06-moreOne/src/main/java/com/komorebi/pojo/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-06/src/main/java/com/komorebi/utils/MybatisUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-06-moreOne/src/main/java/com/komorebi/utils/MybatisUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-06/src/main/resources/com/komorebi/dao/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-06-moreOne/src/main/resources/com/komorebi/dao/StudentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-06/src/main/resources/com/komorebi/dao/TeacherMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-06-moreOne/src/main/resources/com/komorebi/dao/TeacherMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-06/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-06-moreOne/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-06/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-06-moreOne/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-06/src/test/java/com/komorebi/dao/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-06-moreOne/src/test/java/com/komorebi/dao/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-06/target/classes/com/komorebi/dao/StudentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-06-moreOne/target/classes/com/komorebi/dao/StudentMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-06/target/classes/com/komorebi/dao/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-06-moreOne/target/classes/com/komorebi/dao/StudentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-06/target/classes/com/komorebi/dao/TeacherMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-06-moreOne/target/classes/com/komorebi/dao/TeacherMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-06/target/classes/com/komorebi/dao/TeacherMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-06-moreOne/target/classes/com/komorebi/dao/TeacherMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-06/target/classes/com/komorebi/pojo/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-06-moreOne/target/classes/com/komorebi/pojo/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-06/target/classes/com/komorebi/pojo/Teacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-06-moreOne/target/classes/com/komorebi/pojo/Teacher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-06/target/classes/com/komorebi/utils/MybatisUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-06-moreOne/target/classes/com/komorebi/utils/MybatisUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-06/target/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-06-moreOne/target/classes/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-06/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-06-moreOne/target/classes/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-06/target/test-classes/com/komorebi/dao/MyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-06-moreOne/target/test-classes/com/komorebi/dao/MyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-07/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-07-oneMore/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-07/src/main/java/com/komorebi/dao/StudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-07-oneMore/src/main/java/com/komorebi/dao/StudentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-07/src/main/java/com/komorebi/dao/TeacherMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-07-oneMore/src/main/java/com/komorebi/dao/TeacherMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-07/src/main/java/com/komorebi/pojo/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-07-oneMore/src/main/java/com/komorebi/pojo/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-07/src/main/java/com/komorebi/pojo/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-07-oneMore/src/main/java/com/komorebi/pojo/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-07/src/main/java/com/komorebi/utils/MybatisUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-07-oneMore/src/main/java/com/komorebi/utils/MybatisUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-07/src/main/resources/com/komorebi/dao/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-07-oneMore/src/main/resources/com/komorebi/dao/StudentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-07/src/main/resources/com/komorebi/dao/TeacherMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-07-oneMore/src/main/resources/com/komorebi/dao/TeacherMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-07/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-07-oneMore/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-07/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-07-oneMore/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-07/src/test/java/com/komorebi/dao/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-07-oneMore/src/test/java/com/komorebi/dao/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-07/target/classes/com/komorebi/dao/StudentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-07-oneMore/target/classes/com/komorebi/dao/StudentMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-07/target/classes/com/komorebi/dao/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-07-oneMore/target/classes/com/komorebi/dao/StudentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-07/target/classes/com/komorebi/dao/TeacherMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-07-oneMore/target/classes/com/komorebi/dao/TeacherMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-07/target/classes/com/komorebi/dao/TeacherMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-07-oneMore/target/classes/com/komorebi/dao/TeacherMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-07/target/classes/com/komorebi/pojo/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-07-oneMore/target/classes/com/komorebi/pojo/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-07/target/classes/com/komorebi/pojo/Teacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-07-oneMore/target/classes/com/komorebi/pojo/Teacher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-07/target/classes/com/komorebi/utils/MybatisUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-07-oneMore/target/classes/com/komorebi/utils/MybatisUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-07/target/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-07-oneMore/target/classes/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-07/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-07-oneMore/target/classes/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-07/target/test-classes/com/komorebi/dao/MyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-07-oneMore/target/test-classes/com/komorebi/dao/MyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-08/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-08-dynamicSQL/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-08/src/main/java/com/komorebi/dao/BlogMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-08-dynamicSQL/src/main/java/com/komorebi/dao/BlogMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-08/src/main/java/com/komorebi/pojo/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-08-dynamicSQL/src/main/java/com/komorebi/pojo/Blog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-08/src/main/java/com/komorebi/utils/IDutils.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-08-dynamicSQL/src/main/java/com/komorebi/utils/IDutils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-08/src/main/java/com/komorebi/utils/MybatisUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-08-dynamicSQL/src/main/java/com/komorebi/utils/MybatisUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-08/src/main/resources/com/komorebi/dao/BlogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-08-dynamicSQL/src/main/resources/com/komorebi/dao/BlogMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-08/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-08-dynamicSQL/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-08/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-08-dynamicSQL/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-08/src/test/java/com/komorebi/dao/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-08-dynamicSQL/src/test/java/com/komorebi/dao/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-08/target/classes/META-INF/mybatis-08.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-08-dynamicSQL/target/classes/META-INF/mybatis-08.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-08/target/classes/com/komorebi/dao/BlogMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-08-dynamicSQL/target/classes/com/komorebi/dao/BlogMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-08/target/classes/com/komorebi/dao/BlogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-08-dynamicSQL/target/classes/com/komorebi/dao/BlogMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-08/target/classes/com/komorebi/pojo/Blog.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-08-dynamicSQL/target/classes/com/komorebi/pojo/Blog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-08/target/classes/com/komorebi/utils/IDutils.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-08-dynamicSQL/target/classes/com/komorebi/utils/IDutils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-08/target/classes/com/komorebi/utils/MybatisUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-08-dynamicSQL/target/classes/com/komorebi/utils/MybatisUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-08/target/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-08-dynamicSQL/target/classes/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-08/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-08-dynamicSQL/target/classes/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-08/target/test-classes/com/komorebi/dao/MyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-08-dynamicSQL/target/test-classes/com/komorebi/dao/MyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-09/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-09-cache/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-09/src/main/java/com/komorebi/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-09-cache/src/main/java/com/komorebi/dao/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-09/src/main/java/com/komorebi/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-09-cache/src/main/java/com/komorebi/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-09/src/main/java/com/komorebi/utils/MybatisUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-09-cache/src/main/java/com/komorebi/utils/MybatisUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-09/src/main/resources/com/komorebi/dao/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-09-cache/src/main/resources/com/komorebi/dao/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-09/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-09-cache/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-09/src/main/resources/ehcache.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-09-cache/src/main/resources/ehcache.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-09/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-09-cache/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-09/src/test/java/com/komorebi/dao/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-09-cache/src/test/java/com/komorebi/dao/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-09/target/classes/com/komorebi/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-09-cache/target/classes/com/komorebi/dao/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-09/target/classes/com/komorebi/dao/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-09-cache/target/classes/com/komorebi/dao/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-09/target/classes/com/komorebi/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-09-cache/target/classes/com/komorebi/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-09/target/classes/com/komorebi/utils/MybatisUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-09-cache/target/classes/com/komorebi/utils/MybatisUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-09/target/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-09-cache/target/classes/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-09/target/classes/ehcache.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-09-cache/target/classes/ehcache.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-09/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-09-cache/target/classes/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-09/target/test-classes/com/komorebi/dao/MyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-09-cache/target/test-classes/com/komorebi/dao/MyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC/out/artifacts/springmvc_05_controller_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC/out/artifacts/springmvc_05_controller_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC/springmvc-05-controller/springmvc-05-controller.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC/springmvc-05-controller/springmvc-05-controller.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC/springmvc-05-controller/target/classes/META-INF/springmvc-05-controller.kotlin_module" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +160,9 @@
     <expand />
     <select />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -37,8 +178,10 @@
     </option>
   </component>
   <component name="ProjectId" id="1kUFEKNzVXeqYwnOs3jEGmnVSYN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -58,9 +201,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.MyTest.test">
     <configuration name="MyTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-09" />
+      <module name="mybatis-09-cache" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.komorebi.dao.*" />
@@ -75,9 +218,77 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyTest.testGetStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-06-moreOne" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.komorebi.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.komorebi.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.komorebi.dao.MyTest" />
+      <option name="METHOD_NAME" value="testGetStudent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.testGetStudent2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-06-moreOne" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.komorebi.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.komorebi.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.komorebi.dao.MyTest" />
+      <option name="METHOD_NAME" value="testGetStudent2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.testGetTeacher2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-07-oneMore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.komorebi.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.komorebi.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.komorebi.dao.MyTest" />
+      <option name="METHOD_NAME" value="testGetTeacher2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDaoTest.testGetUserByLimit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-04-limit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.komorebi.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.komorebi.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.komorebi.dao.UserDaoTest" />
+      <option name="METHOD_NAME" value="testGetUserByLimit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MyTest.test" />
+        <item itemvalue="JUnit.MyTest.testGetTeacher2" />
+        <item itemvalue="JUnit.MyTest.testGetStudent2" />
+        <item itemvalue="JUnit.MyTest.testGetStudent" />
+        <item itemvalue="JUnit.UserDaoTest.testGetUserByLimit" />
       </list>
     </recent_temporary>
   </component>
@@ -93,10 +304,22 @@
       <updated>1605747149666</updated>
       <workItem from="1605747150986" duration="2042000" />
       <workItem from="1605790288705" duration="94000" />
+      <workItem from="1606547966428" duration="1982000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

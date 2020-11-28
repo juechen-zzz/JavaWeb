@@ -6,11 +6,13 @@
 <configuration>
     <!--引入外部配置文件，外部配置文件优先使用，缺少的字段可以在这补-->
     <properties resource="db.properties"/>
+
     <!--给实体类起别名-->
     <typeAliases>
         <typeAlias type="com.komorebi.pojo.User" alias="User"/>
         <package name="com.komorebi.pojo"/>
     </typeAliases>
+
     <environments default="development">
         <environment id="development">
             <transactionManager type="JDBC"/>
@@ -31,6 +33,7 @@
 <!--            </dataSource>-->
 <!--        </environment>-->
     </environments>
+
     <mappers>
         <mapper resource="com/komorebi/dao/UserMapper.xml"/>
     </mappers>
