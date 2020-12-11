@@ -1,0 +1,12 @@
+person:
+  name: xxxxxx@126.com
+  age: 18
+  happy: false
+  birth: 2020/12/12
+  maps: {k1: v1, k2: v2}
+  lists:
+    - code
+    - girl
+  dog:
+    name: wang
+    age: 4

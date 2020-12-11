@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.komorebi.helloworld1.Helloworld1ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.743 s - in com.komorebi.helloworld1.Helloworld1ApplicationTests
