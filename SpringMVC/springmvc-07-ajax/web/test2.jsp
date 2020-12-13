@@ -13,10 +13,10 @@
                     var html = "";
                     for (let i = 0; i < data.length; i++) {
                         html += "<tr>" +
-                                "<td>" + data[i].name + "</td>" +
-                                "<td>" + data[i].age + "</td>" +
-                                "<td>" + data[i].sex + "</td>" +
-                                "</tr>"
+                            "<td>" + data[i].name + "</td>" +
+                            "<td>" + data[i].age + "</td>" +
+                            "<td>" + data[i].sex + "</td>" +
+                            "</tr>"
                     }
                     $("#content").html(html);
                 });
@@ -24,7 +24,7 @@
         });
     </script>
 
-    </head>
+</head>
 <body>
 
 <input type="button" value="加载数据" id="btn">
@@ -35,7 +35,7 @@
         <td>性别</td>
     </tr>
     <tbody id="content">
-        <%--数据：后台--%>
+    <%--数据：后台--%>
     </tbody>
 </table>
 

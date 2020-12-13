@@ -7,11 +7,11 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
+<head>
     <title>$Title$</title>
-  </head>
-  <body>
+</head>
+<body>
 
-  <h1>当前有<span><%=this.getServletConfig().getServletContext().getAttribute("OnlineCount")%></span></h1>
-  </body>
+<h1>当前有<span><%=this.getServletConfig().getServletContext().getAttribute("OnlineCount")%></span></h1>
+</body>
 </html>

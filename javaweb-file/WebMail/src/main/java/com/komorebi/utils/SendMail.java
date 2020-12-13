@@ -16,13 +16,14 @@ public class SendMail extends Thread {
     private String host = "smtp.126.com";
 
     private User user;
-    public SendMail(User user){
+
+    public SendMail(User user) {
         this.user = user;
     }
 
     @Override
     public void run() {
-        try{
+        try {
             Properties prop = new Properties();
             prop.setProperty("mail.host", host);
             prop.setProperty("mail.transport.protocol", "smtp");
@@ -58,7 +59,7 @@ public class SendMail extends Thread {
             ts.sendMessage(message, message.getAllRecipients());
             ts.close();
 
-        }catch (Exception e){
+        } catch (Exception e) {
             throw new RuntimeException(e);
         }
     }

@@ -13,7 +13,7 @@ public class MyTest {
     }
 
     @Test
-    public void MyTest(){
+    public void MyTest() {
         ApplicationContext context = new ClassPathXmlApplicationContext("userBeans.xml");
         User user = context.getBean("user", User.class);
         User user2 = context.getBean("user", User.class);

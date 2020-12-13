@@ -34,13 +34,13 @@ public class CookieDemo01 extends HttpServlet {
                     out.write(date.toLocaleString());
                 }
             }
-        }else {
+        } else {
             out.write("这是您第一次访问");
         }
 
         // 服务器给客户端响应一个cookie
         Cookie cookie = new Cookie("lastLoginTime", System.currentTimeMillis() + "");
-        cookie.setMaxAge(24*60*60);                // cookie有效期为1天
+        cookie.setMaxAge(24 * 60 * 60);                // cookie有效期为1天
         resp.addCookie(cookie);
     }
 

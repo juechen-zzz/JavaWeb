@@ -9,7 +9,7 @@ import java.util.List;
 
 public class UserMapperTest {
     @Test
-    public void test(){
+    public void test() {
         SqlSession sqlSession = MybatisUtils.getSqlSession();
 
         UserMapper mapper = sqlSession.getMapper(UserMapper.class);
@@ -22,7 +22,7 @@ public class UserMapperTest {
     }
 
     @Test
-    public void testGetUserByID(){
+    public void testGetUserByID() {
         SqlSession sqlSession = MybatisUtils.getSqlSession();
 
         UserMapper mapper = sqlSession.getMapper(UserMapper.class);
@@ -33,7 +33,7 @@ public class UserMapperTest {
     }
 
     @Test
-    public void testAddUser(){
+    public void testAddUser() {
         SqlSession sqlSession = MybatisUtils.getSqlSession();
 
         UserMapper mapper = sqlSession.getMapper(UserMapper.class);
@@ -43,7 +43,7 @@ public class UserMapperTest {
     }
 
     @Test
-    public void testUpdateUser(){
+    public void testUpdateUser() {
         SqlSession sqlSession = MybatisUtils.getSqlSession();
 
         UserMapper mapper = sqlSession.getMapper(UserMapper.class);
@@ -53,7 +53,7 @@ public class UserMapperTest {
     }
 
     @Test
-    public void testDeleteUser(){
+    public void testDeleteUser() {
         SqlSession sqlSession = MybatisUtils.getSqlSession();
 
         UserMapper mapper = sqlSession.getMapper(UserMapper.class);

@@ -24,7 +24,7 @@ public class TestJdbc {
         // 5 执行查询SQL，返回一个结果集 statement.executeUpdate(sql)
         ResultSet resultSet = statement.executeQuery(sql);
 
-        while (resultSet.next()){
+        while (resultSet.next()) {
             System.out.println("id: " + resultSet.getObject("id"));
             System.out.println("name: " + resultSet.getObject("name"));
             System.out.println("password: " + resultSet.getObject("password"));

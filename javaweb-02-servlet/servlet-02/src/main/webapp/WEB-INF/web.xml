@@ -5,7 +5,7 @@
                       http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0"
          metadata-complete="true">
-    
+
     <!--HelloServlet-->
     <servlet>
         <servlet-name>hello</servlet-name>
@@ -15,7 +15,7 @@
         <servlet-name>hello</servlet-name>
         <url-pattern>/hello</url-pattern>
     </servlet-mapping>
-    
+
     <!--GetServlet-->
     <servlet>
         <servlet-name>get</servlet-name>

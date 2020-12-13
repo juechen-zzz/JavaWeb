@@ -12,9 +12,9 @@
     <bean id="dog" class="com.komorebi.pojo.Dog"/>
     <bean id="person" class="com.komorebi.pojo.Person"/>
 
-<!--    &lt;!&ndash;ByName会自动在上下文中查找，和自己对象Set方法后面的值对应的beanID&ndash;&gt;-->
-<!--    &lt;!&ndash;ByType会自动在上下文中查找，和自己对象属性类型相同的bean&ndash;&gt;-->
-<!--    <bean id="person" class="com.komorebi.pojo.Person" autowire="byType">-->
-<!--        <property name="name" value="komorebi"/>-->
-<!--    </bean>-->
+    <!--    &lt;!&ndash;ByName会自动在上下文中查找，和自己对象Set方法后面的值对应的beanID&ndash;&gt;-->
+    <!--    &lt;!&ndash;ByType会自动在上下文中查找，和自己对象属性类型相同的bean&ndash;&gt;-->
+    <!--    <bean id="person" class="com.komorebi.pojo.Person" autowire="byType">-->
+    <!--        <property name="name" value="komorebi"/>-->
+    <!--    </bean>-->
 </beans>

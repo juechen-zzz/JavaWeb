@@ -10,12 +10,12 @@ import org.aspectj.lang.annotation.Before;
 @Aspect     // 标注一个类是切面
 public class AnnotationPointCut {
     @Before("execution(* com.komorebi.service.UserServiceImpl.*(..))")
-    public void before(){
+    public void before() {
         System.out.println("Before the method");
     }
 
     @After("execution(* com.komorebi.service.UserServiceImpl.*(..))")
-    public void after(){
+    public void after() {
         System.out.println("After the method");
     }
 

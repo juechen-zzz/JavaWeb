@@ -15,7 +15,7 @@
 
 <h1>主页</h1>
 
-<p><a href="/servlet/logout">注销</a> </p>
+<p><a href="/servlet/logout">注销</a></p>
 
 </body>
 </html>

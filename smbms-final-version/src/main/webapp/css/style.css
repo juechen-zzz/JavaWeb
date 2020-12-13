@@ -72,7 +72,7 @@ input {
 
 .info {
     color: red;
-    font-weight:bold; 
+    font-weight: bold;
 }
 
 .inputbox input {
@@ -249,7 +249,7 @@ input[type='reset']:active, input[type='reset']:focus, .providerView a:hover, .p
     text-align: right;
 }
 
-.providerAdd input ,.providerAdd select{
+.providerAdd input, .providerAdd select {
     width: 260px;
     height: 30px;
     line-height: 30px;
@@ -260,7 +260,7 @@ input[type='reset']:active, input[type='reset']:focus, .providerView a:hover, .p
     box-shadow: 1px 1px 1px #99afc4;
 }
 
-.providerAdd input:focus,.providerAdd select:focus {
+.providerAdd input:focus, .providerAdd select:focus {
     border: 1px solid #0e56a8;
     background: rgba(238, 236, 240, 0.2);
     -webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.9) inset;
@@ -296,7 +296,7 @@ input[type='reset']:active, input[type='reset']:focus, .providerView a:hover, .p
     padding-top: 20px;
 }
 
-.providerAddBtn a ,
+.providerAddBtn a,
 .providerAddBtn input[type='submit'],
 .providerAddBtn input[type='button'] {
     display: inline-block;
@@ -318,14 +318,14 @@ input[type='reset']:active, input[type='reset']:focus, .providerView a:hover, .p
 .providerAddBtn a:focus,
 .providerAddBtn a:hover,
 .providerAddBtn input[type='submit']:hover,
-.providerAddBtn input[type='submit']:focus{
+.providerAddBtn input[type='submit']:focus {
     background: linear-gradient(to bottom, #7aaed4, #578bb4, #406e99, #225792, #0d2d54);
 }
 
-.providerAdd input[type='radio']{
+.providerAdd input[type='radio'] {
     width: 20px;
     height: 14px;
-    line-height:12px;
+    line-height: 12px;
     border-radius: 4px;
     outline: none;
     padding-left: 10px;
@@ -335,7 +335,7 @@ input[type='reset']:active, input[type='reset']:focus, .providerView a:hover, .p
 
 /*点击删除按钮后弹出的层*/
 .zhezhao {
-    display: none;          /* 修改这里可以让遮罩层消失*/
+    display: none; /* 修改这里可以让遮罩层消失*/
     position: absolute;
     top: 0;
     left: 0;
@@ -346,34 +346,39 @@ input[type='reset']:active, input[type='reset']:focus, .providerView a:hover, .p
     filter: alpha(opacity=70);
     overflow: hidden;
 }
-.remove{
-   display: none;       /* 修改这里可以让删除框消失*/
+
+.remove {
+    display: none; /* 修改这里可以让删除框消失*/
     width: 400px;
     height: 190px;
     position: absolute;
     top: 200px;
-    left:500px;
+    left: 500px;
     background: #fff;
     border-radius: 4px;
 }
-.removerChid{
+
+.removerChid {
     margin: 4px;
     border: 1px solid #ccc;
 }
-.removerChid h2{
+
+.removerChid h2 {
     padding-left: 8px;
     font-size: 14px;
     line-height: 30px;
     margin: 4px 8px;
     border-bottom: 1px solid #99cc33;
 }
-.removeMain{
+
+.removeMain {
     margin-top: 38px;
     text-align: center;
     margin-bottom: 30px;
     border-radius: 4px;
 }
-.removeMain a{
+
+.removeMain a {
     padding: 0 20px;
     display: inline-block;
     height: 30px;
@@ -384,59 +389,59 @@ input[type='reset']:active, input[type='reset']:focus, .providerView a:hover, .p
     background: #99cc33;
     color: #fff;
 }
-.removeMain a:hover,.removeMain a:active{
+
+.removeMain a:hover, .removeMain a:active {
     background: #679016;
 
 }
 
 /*页码*/
-.page-bar
-{
-	position:relative;
-	margin-top:10px;
+.page-bar {
+    position: relative;
+    margin-top: 10px;
 }
-.page-num-ul li
-{
-	float:left;
+
+.page-num-ul li {
+    float: left;
 }
-.page-num-ul li a
-{
-	display:inline-block;
-	padding:3px 5px;
-	margin:0px 3px;
-	border:1px solid #b8b8b8;
+
+.page-num-ul li a {
+    display: inline-block;
+    padding: 3px 5px;
+    margin: 0px 3px;
+    border: 1px solid #b8b8b8;
 }
-.page-num-ul a:hover,.page-num-ul .thisclass
-{
-	border:1px solid #c5063f;
-	background-color:#c5063f;
-	color:#FFF;
-	text-decoration:none;
+
+.page-num-ul a:hover, .page-num-ul .thisclass {
+    border: 1px solid #c5063f;
+    background-color: #c5063f;
+    color: #FFF;
+    text-decoration: none;
 }
-.page-key
-{
-	width:50px;
+
+.page-key {
+    width: 50px;
 }
-.page-btn
-{
-	border:1px solid #b8b8b8;
-	background-color:#fff3f8;
-	display:inline-block;
-	width:52px;
-	height:25px;
-	line-height:25px;
-	font-weight:20px;
+
+.page-btn {
+    border: 1px solid #b8b8b8;
+    background-color: #fff3f8;
+    display: inline-block;
+    width: 52px;
+    height: 25px;
+    line-height: 25px;
+    font-weight: 20px;
 }
-.page-go-form
-{
-	position:absolute;
-	display:inline-block;
-	right:50px;
-	top:0px;
+
+.page-go-form {
+    position: absolute;
+    display: inline-block;
+    right: 50px;
+    top: 0px;
 }
-.page-go-form input,label,button
-{
-	margin:0px 5px;
+
+.page-go-form input, label, button {
+    margin: 0px 5px;
 }
 
 

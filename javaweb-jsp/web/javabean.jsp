@@ -25,10 +25,14 @@
 <jsp:setProperty name="people" property="age" value="18"/>
 <jsp:setProperty name="people" property="name" value="cx"/>
 
-姓名：<jsp:getProperty name="people" property="name"/>
-ID：<jsp:getProperty name="people" property="id"/>
-年龄：<jsp:getProperty name="people" property="age"/>
-地址：<jsp:getProperty name="people" property="address"/>
+姓名：
+<jsp:getProperty name="people" property="name"/>
+ID：
+<jsp:getProperty name="people" property="id"/>
+年龄：
+<jsp:getProperty name="people" property="age"/>
+地址：
+<jsp:getProperty name="people" property="address"/>
 
 </body>
 </html>

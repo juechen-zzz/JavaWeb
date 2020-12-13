@@ -39,7 +39,7 @@ public class MailDemo03 {
         ts.close();
     }
 
-    public static MimeMessage imageMail(Session session) throws MessagingException{
+    public static MimeMessage imageMail(Session session) throws MessagingException {
         // 消息的固定信息
         MimeMessage mimeMessage = new MimeMessage(session);
 

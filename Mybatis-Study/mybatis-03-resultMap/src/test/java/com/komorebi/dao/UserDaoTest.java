@@ -9,7 +9,7 @@ import java.util.List;
 
 public class UserDaoTest {
     @Test
-    public void testGetUserById(){
+    public void testGetUserById() {
         SqlSession sqlSession = MybatisUtils.getSqlSession();
 
         UserMapper mapper = sqlSession.getMapper(UserMapper.class);

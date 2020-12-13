@@ -13,7 +13,7 @@ public class LoginServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         // 获取前端请求的参数
         String username = req.getParameter("username");
-        if (username.equals("admin")){
+        if (username.equals("admin")) {
             req.getSession().setAttribute(constant.USER_SESSION, req.getSession().getId());
             resp.sendRedirect("/sys/success.jsp");
         } else {

@@ -29,9 +29,10 @@ public class BookController {
 
     // 新增
     @RequestMapping("toAddBook")
-    public String toAddPaper(){
+    public String toAddPaper() {
         return "addBook";
     }
+
     @RequestMapping("/addBook")
     public String addPaper(Books books) {
         System.out.println(books);
@@ -44,9 +45,10 @@ public class BookController {
     public String toUpdateBook(Model model, int id) {
         Books books = bookService.queryBookById(id);
         System.out.println(books);
-        model.addAttribute("book",books);
+        model.addAttribute("book", books);
         return "updateBook";
     }
+
     @RequestMapping("/updateBook")
     public String updateBook(Model model, Books book) {
         System.out.println(book);
@@ -65,11 +67,11 @@ public class BookController {
 
     // 查询书籍
     @RequestMapping("/queryBook")
-    public String queryBook(Model model, String queryBookName){
+    public String queryBook(Model model, String queryBookName) {
         Books book = bookService.queryBookByName(queryBookName);
         List<Books> list = new ArrayList<Books>();
         list.add(book);
-        if (book == null){
+        if (book == null) {
             list = bookService.queryAllBook();
             model.addAttribute("error", "未查到");
         }

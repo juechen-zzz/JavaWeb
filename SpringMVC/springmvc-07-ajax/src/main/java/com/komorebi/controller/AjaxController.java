@@ -12,21 +12,21 @@ import java.util.List;
 @RestController
 public class AjaxController {
     @RequestMapping("/t1")
-    public String test1(){
+    public String test1() {
         return "hello";
     }
 
     @RequestMapping("/a1")
     public void ajax1(String name, HttpServletResponse response) throws IOException {
-        if ("admin".equals(name)){
+        if ("admin".equals(name)) {
             response.getWriter().print("true");
-        }else{
+        } else {
             response.getWriter().print("false");
         }
     }
 
     @RequestMapping("/a2")
-    public List<User> a2(){
+    public List<User> a2() {
         List<User> userList = new ArrayList<User>();
         userList.add(new User("k1", 18, "man"));
         userList.add(new User("k2", 18, "man"));
@@ -35,19 +35,19 @@ public class AjaxController {
     }
 
     @RequestMapping("/a3")
-    public String a3(String name, String pwd){
+    public String a3(String name, String pwd) {
         String msg = "";
-        if (name != null){
-            if ("admin".equals(name)){
+        if (name != null) {
+            if ("admin".equals(name)) {
                 msg = "OK";
-            }else {
+            } else {
                 msg = "用户名输入错误";
             }
         }
-        if (pwd != null){
-            if ("123456".equals(pwd)){
+        if (pwd != null) {
+            if ("123456".equals(pwd)) {
                 msg = "OK";
-            }else {
+            } else {
                 msg = "密码输入有误";
             }
         }

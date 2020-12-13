@@ -11,7 +11,7 @@ import java.util.Map;
 
 public class UserDaoTest {
     @Test
-    public void testSelect(){
+    public void testSelect() {
         // 1 获得SqlSession对象
         SqlSession sqlSession = MybatisUtils.getSqlSession();
 
@@ -28,7 +28,7 @@ public class UserDaoTest {
     }
 
     @Test
-    public void testGetUserById(){
+    public void testGetUserById() {
         SqlSession sqlSession = MybatisUtils.getSqlSession();
 
         UserMapper mapper = sqlSession.getMapper(UserMapper.class);
@@ -40,12 +40,12 @@ public class UserDaoTest {
 
     // 增删改必须要提交事务
     @Test
-    public void testAddUser(){
+    public void testAddUser() {
         SqlSession sqlSession = MybatisUtils.getSqlSession();
 
         UserMapper mapper = sqlSession.getMapper(UserMapper.class);
         int res = mapper.addUser(new User(4, "wang_five", "123123"));
-        if (res > 0){
+        if (res > 0) {
             System.out.println("插入成功");
         }
 
@@ -56,12 +56,12 @@ public class UserDaoTest {
     }
 
     @Test
-    public void testUpdateUser(){
+    public void testUpdateUser() {
         SqlSession sqlSession = MybatisUtils.getSqlSession();
 
         UserMapper mapper = sqlSession.getMapper(UserMapper.class);
         int res = mapper.updateUser(new User(4, "wang_five_2", "123321"));
-        if (res > 0){
+        if (res > 0) {
             System.out.println("修改成功");
         }
 
@@ -70,12 +70,12 @@ public class UserDaoTest {
     }
 
     @Test
-    public void testDeleteUser(){
+    public void testDeleteUser() {
         SqlSession sqlSession = MybatisUtils.getSqlSession();
 
         UserMapper mapper = sqlSession.getMapper(UserMapper.class);
         int res = mapper.deleteUser(4);
-        if (res > 0){
+        if (res > 0) {
             System.out.println("删除成功");
         }
 
@@ -84,7 +84,7 @@ public class UserDaoTest {
     }
 
     @Test
-    public void testAddUser2(){
+    public void testAddUser2() {
         SqlSession sqlSession = MybatisUtils.getSqlSession();
 
         UserMapper mapper = sqlSession.getMapper(UserMapper.class);
@@ -95,7 +95,7 @@ public class UserDaoTest {
         map.put("userPassword", "123123");
 
         int res = mapper.addUser2(map);
-        if (res > 0){
+        if (res > 0) {
             System.out.println("添加成功");
         }
 
@@ -104,7 +104,7 @@ public class UserDaoTest {
     }
 
     @Test
-    public void testGetUserLike(){
+    public void testGetUserLike() {
         SqlSession sqlSession = MybatisUtils.getSqlSession();
 
         UserMapper mapper = sqlSession.getMapper(UserMapper.class);

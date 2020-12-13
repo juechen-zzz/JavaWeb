@@ -11,7 +11,7 @@ import java.util.List;
 
 public class MyTest {
     @Test
-    public void testGetTeacher(){
+    public void testGetTeacher() {
         SqlSession sqlSession = MybatisUtils.getSqlSession();
 
         TeacherMapper mapper = sqlSession.getMapper(TeacherMapper.class);
@@ -24,7 +24,7 @@ public class MyTest {
     }
 
     @Test
-    public void testGetTeacher2(){
+    public void testGetTeacher2() {
         SqlSession sqlSession = MybatisUtils.getSqlSession();
 
         TeacherMapper mapper = sqlSession.getMapper(TeacherMapper.class);
@@ -35,7 +35,7 @@ public class MyTest {
     }
 
     @Test
-    public void testGetTeacher3(){
+    public void testGetTeacher3() {
         SqlSession sqlSession = MybatisUtils.getSqlSession();
 
         TeacherMapper mapper = sqlSession.getMapper(TeacherMapper.class);

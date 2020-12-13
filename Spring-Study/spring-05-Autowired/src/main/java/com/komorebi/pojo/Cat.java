@@ -1,7 +1,7 @@
 package com.komorebi.pojo;
 
 public class Cat {
-    public void shout(){
+    public void shout() {
         System.out.println("w~");
     }
 }

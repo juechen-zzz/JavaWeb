@@ -37,7 +37,7 @@
         <servlet-name>LogoutServlet</servlet-name>
         <url-pattern>/servlet/logout</url-pattern>
     </servlet-mapping>
-    
+
     <filter>
         <filter-name>SysFilter</filter-name>
         <filter-class>com.komorebi.filter.SysFilter</filter-class>

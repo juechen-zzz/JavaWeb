@@ -43,7 +43,7 @@ public class MailDemo02 {
         DataHandler dh = new DataHandler(new FileDataSource("/Users/nihaopeng/个人/Git/JavaWeb/javaweb-file/mail-java/src/resources/dog_and_cat.jpeg"));    // 图片需要处理
         image.setDataHandler(dh);                   // 在body中放入这个处理的图片数据
         image.setContentID("dog_and_cat.jpeg");     // 给图片设置一个ID，这样在后面可以使用
-        
+
         // 4.2 准备正文数据
         MimeBodyPart text = new MimeBodyPart();
         text.setContent("这是一封邮件正文带图片<img src='cid:dog_and_cat.jpeg'>的邮件", "text/html;charset=UTF-8");  // cid：ContentID

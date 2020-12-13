@@ -12,7 +12,7 @@ public class ControllerRestFul04 {
     // RestFul:  localhost:8080/add/2/3
 
     @RequestMapping(value = "/add/{a}/{b}", method = {RequestMethod.GET})
-    public String test1(@PathVariable int a, @PathVariable int b, Model model){
+    public String test1(@PathVariable int a, @PathVariable int b, Model model) {
         int res = a + b;
         model.addAttribute("message", "结果为：" + res);
         return "test";

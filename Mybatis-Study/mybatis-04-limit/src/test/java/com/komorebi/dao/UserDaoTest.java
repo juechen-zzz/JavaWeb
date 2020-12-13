@@ -15,7 +15,7 @@ public class UserDaoTest {
     static Logger logger = Logger.getLogger(UserDaoTest.class);
 
     @Test
-    public void testGetUserById(){
+    public void testGetUserById() {
         SqlSession sqlSession = MybatisUtils.getSqlSession();
         logger.info("info:进入testGetUserById方法");
 
@@ -28,14 +28,14 @@ public class UserDaoTest {
     }
 
     @Test
-    public void testLog4j(){
+    public void testLog4j() {
         logger.info("info:进入testLog4j");
         logger.debug("info:进入了Debug");
         logger.error("info:进入了error");
     }
 
     @Test
-    public void testGetUserByLimit(){
+    public void testGetUserByLimit() {
         SqlSession sqlSession = MybatisUtils.getSqlSession();
 
         UserMapper mapper = sqlSession.getMapper(UserMapper.class);
@@ -53,7 +53,7 @@ public class UserDaoTest {
     }
 
     @Test
-    public void testGetUserByRowBounds(){
+    public void testGetUserByRowBounds() {
         SqlSession sqlSession = MybatisUtils.getSqlSession();
 
         // RowBounds实现

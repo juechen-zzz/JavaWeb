@@ -15,7 +15,7 @@ public class KomorebiConfig {
     // 这个方法的名字，就相当于Bean标签中的ID属性
     // 这个方法的返回值，就相当于Bean标签中的class属性
     @Bean
-    public User getUser(){
+    public User getUser() {
         return new User();      // 就是返回要注入到Bean中的对象
     }
 }

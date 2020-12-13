@@ -20,21 +20,21 @@ import java.util.UUID;
 public class FileServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         // 判断上传的文件是普通表单还是带文件的表单，如果通过，说明表单是带文件上传的
-        if (!ServletFileUpload.isMultipartContent(request)){
+        if (!ServletFileUpload.isMultipartContent(request)) {
             return; // 终止方法运行，说明这是一个普通的表单，直接返回
         }
 
         // 创建上传文件的保存路径，建议在WEB-INF路径下，安全，用户无法直接访问上传的文件
         String uploadPath = this.getServletContext().getRealPath("/WEB-INF/upload");
         File uploadFile = new File(uploadPath);
-        if (!uploadFile.exists()){
+        if (!uploadFile.exists()) {
             uploadFile.mkdir(); // 创建这个目录
         }
 
         // 缓存，临时文件。当文件超过预期大小，就放到一个临时文件中，过几天自动删除或提醒转存为永久
         String tmpPath = this.getServletContext().getRealPath("/WEB-INF/tmp");
         File file = new File(uploadPath);
-        if (!file.exists()){
+        if (!file.exists()) {
             file.mkdir(); // 创建这个临时目录
         }
 
@@ -54,12 +54,12 @@ public class FileServlet extends HttpServlet {
 
             // Servlet请求转发消息
             System.out.println(msg);
-            if(msg == "文件上传成功!") {
+            if (msg == "文件上传成功!") {
                 // Servlet请求转发消息
                 request.setAttribute("msg", msg);
                 request.getRequestDispatcher("info.jsp").forward(request, response);
-            }else {
-                msg ="请上传文件";
+            } else {
+                msg = "请上传文件";
                 request.setAttribute("msg", msg);
                 request.getRequestDispatcher("info.jsp").forward(request, response);
             }
@@ -68,7 +68,7 @@ public class FileServlet extends HttpServlet {
         }
     }
 
-    public static DiskFileItemFactory getDiskFileItemFactory(File file){
+    public static DiskFileItemFactory getDiskFileItemFactory(File file) {
         // 1. 创建DiskFileItemFactory对象，处理文件上传路径或者大小限制的
         DiskFileItemFactory factory = new DiskFileItemFactory();
 
@@ -116,7 +116,9 @@ public class FileServlet extends HttpServlet {
                 // 拿到文件名
                 String uploadFileName = fileItem.getName();
                 System.out.println("上传的文件名: " + uploadFileName);
-                if (uploadFileName.trim().equals("") || uploadFileName == null) { continue; }
+                if (uploadFileName.trim().equals("") || uploadFileName == null) {
+                    continue;
+                }
 
                 // 获得上传的文件名/images/girl/paojie.png
                 String fileName = uploadFileName.substring(uploadFileName.lastIndexOf("/") + 1);

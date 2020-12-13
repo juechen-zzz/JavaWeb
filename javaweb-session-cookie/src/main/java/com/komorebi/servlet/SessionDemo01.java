@@ -6,7 +6,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.*;
 import java.io.IOException;
 
-public class SessionDemo01 extends HttpServlet{
+public class SessionDemo01 extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         req.setCharacterEncoding("utf-8");
@@ -23,9 +23,9 @@ public class SessionDemo01 extends HttpServlet{
         String id = session.getId();
 
         // 判断Session是不是新创建的
-        if (session.isNew()){
+        if (session.isNew()) {
             resp.getWriter().write("Session starts, ID: " + id);
-        }else {
+        } else {
             resp.getWriter().write("Session already exist" + id);
         }
 

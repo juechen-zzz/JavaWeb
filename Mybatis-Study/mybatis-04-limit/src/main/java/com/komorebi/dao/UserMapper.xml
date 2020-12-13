@@ -8,7 +8,7 @@
     <!--按指定ID查询，结果集映射-->
     <resultMap id="UserMap" type="User">
         <!--column指数据库中的字段，property指实体类中的属性-->
-        <result column="pwd" property="password" />
+        <result column="pwd" property="password"/>
     </resultMap>
     <select id="getUserById" parameterType="int" resultMap="UserMap">
         select * from mybatis.user where id = #{id};

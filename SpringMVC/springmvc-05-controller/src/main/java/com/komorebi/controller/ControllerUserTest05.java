@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class ControllerUserTest05 {
     // localhost:8080/user/t1?name=xxx
     @GetMapping("/user/t1")
-    public String test1(@RequestParam("name") String name1, Model model){
+    public String test1(@RequestParam("name") String name1, Model model) {
         // 1 接收前端参数
         System.out.println("get : " + name1);
 
@@ -24,13 +24,13 @@ public class ControllerUserTest05 {
 
     // localhost:8080/user/t2?id=1&name=xxx&age=18
     @GetMapping("/user/t2")
-    public String test2(User user){
+    public String test2(User user) {
         System.out.println(user);
         return "test";
     }
 
     @GetMapping("/user/t3")
-    public String test3(ModelMap map){
+    public String test3(ModelMap map) {
         map.addAttribute("message", "ModelMap");
         return "test";
     }

@@ -30,7 +30,8 @@
     <resultMap id="TeacherStudent2" type="Teacher">
         <result property="id" column="id"/>
         <result property="name" column="name"/>
-        <collection property="students" column="id" javaType="ArrayList" ofType="Student" select="getStudenByTeacherID"/>
+        <collection property="students" column="id" javaType="ArrayList" ofType="Student"
+                    select="getStudenByTeacherID"/>
     </resultMap>
     <select id="getStudenByTeacherID" resultType="Student">
         select * from mybatis.student where tid = #{id};

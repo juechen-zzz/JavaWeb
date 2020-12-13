@@ -9,7 +9,7 @@ import java.util.List;
 
 public class MyTest {
     @Test
-    public void test(){
+    public void test() {
         SqlSession sqlSession = MybatisUtils.getSqlSession();
         SqlSession sqlSession2 = MybatisUtils.getSqlSession();
 

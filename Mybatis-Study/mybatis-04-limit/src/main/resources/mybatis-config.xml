@@ -9,8 +9,8 @@
 
     <!--设置-->
     <settings>
-<!--        &lt;!&ndash;标准的日志工厂实现&ndash;&gt;-->
-<!--        <setting name="logImpl" value="STDOUT_LOGGING"/>-->
+        <!--        &lt;!&ndash;标准的日志工厂实现&ndash;&gt;-->
+        <!--        <setting name="logImpl" value="STDOUT_LOGGING"/>-->
         <!--LOG4J实现-->
         <setting name="logImpl" value="LOG4J"/>
     </settings>

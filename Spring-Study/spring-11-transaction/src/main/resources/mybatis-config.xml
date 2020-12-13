@@ -7,10 +7,10 @@
     <typeAliases>
         <package name="com.komorebi.pojo"/>
     </typeAliases>
-    
-<!--    <settings>-->
-<!--        <setting name="" value=""/>-->
-<!--    </settings>-->
+
+    <!--    <settings>-->
+    <!--        <setting name="" value=""/>-->
+    <!--    </settings>-->
 
 
 </configuration>

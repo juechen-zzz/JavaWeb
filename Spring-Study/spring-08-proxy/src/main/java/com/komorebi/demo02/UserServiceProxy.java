@@ -27,7 +27,7 @@ public class UserServiceProxy implements UserService {
         userService.query();
     }
 
-    public void log(String msg){
+    public void log(String msg) {
         System.out.println("Use " + msg);
     }
 }

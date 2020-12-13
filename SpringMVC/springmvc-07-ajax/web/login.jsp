@@ -6,29 +6,30 @@
     <script src="${pageContext.request.contextPath}/statics/js/jquery-3.5.1.js"></script>
 
     <script>
-        function a1(){
+        function a1() {
             $.post({
-                url:"${pageContext.request.contextPath}/a3",
-                data:{'name':$("#name").val()},
-                success:function (data) {
-                    if (data.toString() == 'OK'){
-                        $("#userInfo").css("color","green");
-                    }else {
-                        $("#userInfo").css("color","red");
+                url: "${pageContext.request.contextPath}/a3",
+                data: {'name': $("#name").val()},
+                success: function (data) {
+                    if (data.toString() == 'OK') {
+                        $("#userInfo").css("color", "green");
+                    } else {
+                        $("#userInfo").css("color", "red");
                     }
                     $("#userInfo").html(data);
                 }
             });
         }
-        function a2(){
+
+        function a2() {
             $.post({
-                url:"${pageContext.request.contextPath}/a3",
-                data:{'pwd':$("#pwd").val()},
-                success:function (data) {
-                    if (data.toString() == 'OK'){
-                        $("#pwdInfo").css("color","green");
-                    }else {
-                        $("#pwdInfo").css("color","red");
+                url: "${pageContext.request.contextPath}/a3",
+                data: {'pwd': $("#pwd").val()},
+                success: function (data) {
+                    if (data.toString() == 'OK') {
+                        $("#pwdInfo").css("color", "green");
+                    } else {
+                        $("#pwdInfo").css("color", "red");
                     }
                     $("#pwdInfo").html(data);
                 }

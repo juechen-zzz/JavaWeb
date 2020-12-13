@@ -3,10 +3,11 @@ package com.komorebi.pojo;
 public class User {
     private String name;
 
-    public User(){
+    public User() {
         System.out.println("User no args!");
     }
-    public User(String name){
+
+    public User(String name) {
         this.name = name;
     }
 
@@ -19,7 +20,7 @@ public class User {
         this.name = name;
     }
 
-    public void show(){
+    public void show() {
         System.out.println("name: " + name);
     }
 }

@@ -5,10 +5,10 @@
 
     <bean id="user" class="com.komorebi.pojo.User">
         <!--1 下标赋值-->
-<!--        <constructor-arg index="0" value="komorebi"/>-->
+        <!--        <constructor-arg index="0" value="komorebi"/>-->
 
         <!--2 类型赋值-->
-<!--        <constructor-arg type="java.lang.String" value="komorebi"/>-->
+        <!--        <constructor-arg type="java.lang.String" value="komorebi"/>-->
 
         <!--3 直接通过参数名设置-->
         <constructor-arg name="name" value="komorebi"/>

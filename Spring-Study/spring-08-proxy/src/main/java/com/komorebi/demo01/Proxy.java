@@ -10,11 +10,11 @@ import lombok.NoArgsConstructor;
 public class Proxy implements Rent {
     private Host host;
 
-    public void rent(){
+    public void rent() {
         host.rent();
     }
 
-    public void seeHouse(){
+    public void seeHouse() {
         System.out.println("See the house.");
     }
 }

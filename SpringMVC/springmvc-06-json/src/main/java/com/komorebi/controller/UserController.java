@@ -31,7 +31,7 @@ public class UserController {
     }
 
     @RequestMapping("/j2")
-    public String json2() throws JsonProcessingException{
+    public String json2() throws JsonProcessingException {
         ObjectMapper mapper = new ObjectMapper();
 
         List<User> userList = new ArrayList<User>();
@@ -51,7 +51,7 @@ public class UserController {
     }
 
     @RequestMapping("/j3")
-    public String json3() throws JsonProcessingException{
+    public String json3() throws JsonProcessingException {
         ObjectMapper mapper = new ObjectMapper();
         Date date = new Date();
         // 自定义日期的格式
@@ -68,14 +68,14 @@ public class UserController {
     }
 
     @RequestMapping("/j4")
-    public String json4() throws JsonProcessingException{
+    public String json4() throws JsonProcessingException {
         Date date = new Date();
         String t = JsonUtils.getJson(date);
         return t;
     }
 
     @RequestMapping("/j5")
-    public String json5(){
+    public String json5() {
         //创建一个对象
         User user1 = new User("K1号", 30, "男");
         User user2 = new User("K2号", 30, "男");

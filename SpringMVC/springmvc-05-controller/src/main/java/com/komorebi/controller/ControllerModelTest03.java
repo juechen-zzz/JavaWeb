@@ -26,7 +26,7 @@ public class ControllerModelTest03 {
     @RequestMapping("/m1/t3")
     public void test3(HttpServletRequest req, HttpServletResponse rsp) throws Exception {
         //转发
-        req.setAttribute("message","/result/t3");
+        req.setAttribute("message", "/result/t3");
         req.getRequestDispatcher("/WEB-INF/jsp/test.jsp").forward(req, rsp);
     }
 }

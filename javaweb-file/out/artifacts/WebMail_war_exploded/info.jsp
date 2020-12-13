@@ -4,7 +4,7 @@
     <title>Title</title>
 </head>
 <body>
-    <h1>Go</h1>
-    ${message}
+<h1>Go</h1>
+${message}
 </body>
 </html>

@@ -10,7 +10,7 @@ public class OnlineCountListener implements HttpSessionListener {
     public void sessionCreated(HttpSessionEvent se) {
         ServletContext ctx = se.getSession().getServletContext();
         Integer onlineCount = (Integer) ctx.getAttribute("OnlineCount");
-        if (onlineCount == null){
+        if (onlineCount == null) {
             onlineCount = new Integer(1);
         } else {
             int count = onlineCount.intValue();
@@ -25,7 +25,7 @@ public class OnlineCountListener implements HttpSessionListener {
     public void sessionDestroyed(HttpSessionEvent se) {
         ServletContext ctx = se.getSession().getServletContext();
         Integer onlineCount = (Integer) ctx.getAttribute("OnlineCount");
-        if (onlineCount == null){
+        if (onlineCount == null) {
             onlineCount = new Integer(0);
         } else {
             int count = onlineCount.intValue();

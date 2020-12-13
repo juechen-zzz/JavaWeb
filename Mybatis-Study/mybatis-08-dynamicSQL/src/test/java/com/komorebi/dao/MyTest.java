@@ -43,7 +43,7 @@ public class MyTest {
     }
 
     @Test
-    public void testQueryBlogIF(){
+    public void testQueryBlogIF() {
         SqlSession sqlSession = MybatisUtils.getSqlSession();
 
         BlogMapper mapper = sqlSession.getMapper(BlogMapper.class);
@@ -59,7 +59,7 @@ public class MyTest {
     }
 
     @Test
-    public void testQueryBlogChoose(){
+    public void testQueryBlogChoose() {
         SqlSession sqlSession = MybatisUtils.getSqlSession();
 
         BlogMapper mapper = sqlSession.getMapper(BlogMapper.class);
@@ -74,7 +74,7 @@ public class MyTest {
     }
 
     @Test
-    public void testUpdateBlog(){
+    public void testUpdateBlog() {
         SqlSession sqlSession = MybatisUtils.getSqlSession();
 
         BlogMapper mapper = sqlSession.getMapper(BlogMapper.class);
@@ -88,7 +88,7 @@ public class MyTest {
     }
 
     @Test
-    public void testQueryBlogForEach(){
+    public void testQueryBlogForEach() {
         SqlSession sqlSession = MybatisUtils.getSqlSession();
 
         BlogMapper mapper = sqlSession.getMapper(BlogMapper.class);

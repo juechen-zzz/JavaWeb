@@ -18,8 +18,8 @@ public class MailDemo01 {
         Session session = Session.getDefaultInstance(prop, new Authenticator() {
             @Override
             protected PasswordAuthentication getPasswordAuthentication() {
-            // 发件人邮件用户名和授权码
-            return new PasswordAuthentication("nihaopeng1997@126.com", "EETBDIXTIBOQXYYA");
+                // 发件人邮件用户名和授权码
+                return new PasswordAuthentication("nihaopeng1997@126.com", "EETBDIXTIBOQXYYA");
             }
         });
         session.setDebug(true);         // 开启Session的debug模式
