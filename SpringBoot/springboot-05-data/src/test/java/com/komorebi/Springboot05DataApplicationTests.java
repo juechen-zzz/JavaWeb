@@ -10,23 +10,23 @@ import java.sql.SQLException;
 
 @SpringBootTest
 class Springboot05DataApplicationTests {
-//
-//    @Autowired
-//    DataSource datasource;
+
+    @Autowired
+    DataSource datasource;
 
     @Test
     void contextLoads() throws SQLException {
-//        // 查看默认的数据源  class com.zaxxer.hikari.HikariDataSource
-//        System.out.println(datasource.getClass());
-//
-//        // 获得数据库连接
-//        Connection connection = datasource.getConnection();
-//        System.out.println(connection);
-//
-//        // xxx Template: springboot已经配置好的模板bean
-//
-//
-//        // 关闭
-//        connection.close();
+        // 查看默认的数据源  class com.zaxxer.hikari.HikariDataSource
+        System.out.println(datasource.getClass());
+
+        // 获得数据库连接
+        Connection connection = datasource.getConnection();
+        System.out.println(connection);
+
+        // xxx Template: springboot已经配置好的模板bean
+
+
+        // 关闭
+        connection.close();
     }
 }
