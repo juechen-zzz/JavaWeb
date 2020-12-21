@@ -24,7 +24,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
         // 开启记住我功能
         http.rememberMe().rememberMeParameter("remember");
-
+        
         // 注销，跳到首页
         http.csrf().disable();
         http.logout().logoutSuccessUrl("/");

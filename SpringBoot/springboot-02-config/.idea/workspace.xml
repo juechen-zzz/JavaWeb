@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97d28d84-3c09-484e-b77d-0706f7dcae7f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-01-helloworld/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-01-helloworld/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-07-security/src/main/java/com/komorebi/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-07-security/src/main/java/com/komorebi/config/SecurityConfig.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,6 +105,7 @@
       <workItem from="1607761144569" duration="8000" />
       <workItem from="1607761572049" duration="311000" />
       <workItem from="1607823750141" duration="42000" />
+      <workItem from="1608534816965" duration="72000" />
     </task>
     <servers />
   </component>
