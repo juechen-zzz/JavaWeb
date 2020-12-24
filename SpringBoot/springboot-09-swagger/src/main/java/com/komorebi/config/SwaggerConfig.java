@@ -19,10 +19,17 @@ import static springfox.documentation.service.ApiInfo.DEFAULT_CONTACT;
 @EnableSwagger2
 public class SwaggerConfig {
     @Bean
+    public Docket docket1(){
+        return new Docket(DocumentationType.SWAGGER_2)
+                .groupName("A");
+    }
+
+    @Bean
     public Docket docket(){
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
 //                .enable(false)            // 是否启动Swagger
+                .groupName("komorebi")
                 .select()
                 // RequestHandlerSelectors 配置要扫描接口的方式
                 //   basePackage:指定要扫描的包
