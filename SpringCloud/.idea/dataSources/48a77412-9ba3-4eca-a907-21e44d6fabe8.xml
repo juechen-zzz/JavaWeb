@@ -950,7 +950,7 @@
       <DataType>varchar(60)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="240" parent="237" name="dp_source">
+    <column id="240" parent="237" name="db_source">
       <Position>3</Position>
       <DataType>varchar(60)|0s</DataType>
       <ColumnKind>normal</ColumnKind>

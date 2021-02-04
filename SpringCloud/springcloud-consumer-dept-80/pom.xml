@@ -12,6 +12,24 @@
     <artifactId>springcloud-consumer-dept-80</artifactId>
 
     <dependencies>
+        <!-- Ribbon -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
+            <version>2.2.6.RELEASE</version>
+        </dependency>
+        <!-- Eureka-Client -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+            <version>2.2.6.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>com.netflix.ribbon</groupId>
+            <artifactId>ribbon-eureka</artifactId>
+            <version>2.7.18</version>
+        </dependency>
+
         <dependency>
             <groupId>com.komorebi</groupId>
             <artifactId>springcloud-api</artifactId>

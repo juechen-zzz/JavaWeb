@@ -5,7 +5,7 @@
 
 <mapper namespace="com.komorebi.springcloud.dao.DeptDao">
     <insert id="addDept" parameterType="Dept">
-        insert into db01.dept (dname, dp_source) values (#{dname},DATABASE());
+        insert into db01.dept (dname, db_source) values (#{dname},DATABASE());
     </insert>
 
     <select id="queryById" resultType="Dept" parameterType="Long">

@@ -30,6 +30,7 @@ public class DeptController {
 
     @GetMapping("/dept/list")
     public List<Dept> queryAll(){
+        System.out.println(deptService.queryAll());
         return deptService.queryAll();
     }
 
