@@ -10,5 +10,6 @@ public class CustomRule {
     @Bean
     public IRule myRule() {
         return new MyRandomRule();
+//        return new RandomRule();
     }
 }
