@@ -1,0 +1,25 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: springcloud-zuul
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+  instance:
+    instance-id: zuul9527.com
+    prefer-ip-address: true
+
+info:
+  app.name: komorebi.blog
+  company.name: komorebi
+
+zuul:
+  routes:
+    mydept.serviceId: springcloud-provider-dept
+    mydept.path: /mydept/**
+  ignored-services: springcloud-provider-dept   # 不能再使用这个路径访问了，如果是 "*" 说明不能用所有的真实项目名（/mydept 是可以的）
+  prefix: /komorebi       # 表示域名前需要加这个前缀（如 localhost:9527/komorebi/mydept/dept/get/1）
