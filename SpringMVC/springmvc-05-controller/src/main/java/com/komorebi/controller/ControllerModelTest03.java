@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /*
-    通过设置ServletAPI, 不需要视图解析器
+    3 通过设置ServletAPI, 不需要视图解析器
  */
 
 @Controller

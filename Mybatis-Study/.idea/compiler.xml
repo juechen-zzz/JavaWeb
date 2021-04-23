@@ -18,5 +18,17 @@
         <module name="mybatis-03-resultMap" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mybatis-01" target="1.5" />
+      <module name="mybatis-02" target="1.5" />
+      <module name="mybatis-03-resultMap" target="1.5" />
+      <module name="mybatis-04-limit" target="1.5" />
+      <module name="mybatis-05-anno" target="1.5" />
+      <module name="mybatis-06-moreOne" target="1.5" />
+      <module name="mybatis-07-oneMore" target="1.5" />
+      <module name="mybatis-08-dynamicSQL" target="1.5" />
+      <module name="mybatis-09-cache" target="1.5" />
+      <module name="Mybatis-Study" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

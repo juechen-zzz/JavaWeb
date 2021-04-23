@@ -1,0 +1,11 @@
+# 消费端口
+server:
+  port: 8081
+# 配置RabbitMQ服务
+spring:
+  rabbitmq:
+    username: komorebi
+    password: 123456
+    virtual-host: /
+    host: 47.110.157.73
+    port: 5672

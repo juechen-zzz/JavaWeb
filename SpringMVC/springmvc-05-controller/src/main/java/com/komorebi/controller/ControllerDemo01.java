@@ -6,7 +6,7 @@ import org.springframework.web.servlet.mvc.Controller;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 /*
-    不用注解的方式，需要注册bean
+    1 不用注解的方式，需要注册bean
  */
 
 public class ControllerDemo01 implements Controller {

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Mybatis-Study.iml" filepath="$PROJECT_DIR$/.idea/Mybatis-Study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-01/mybatis-01.iml" filepath="$PROJECT_DIR$/mybatis-01/mybatis-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-02/mybatis-02.iml" filepath="$PROJECT_DIR$/mybatis-02/mybatis-02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-03-resultMap/mybatis-03-resultMap.iml" filepath="$PROJECT_DIR$/mybatis-03-resultMap/mybatis-03-resultMap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-04-limit/mybatis-04-limit.iml" filepath="$PROJECT_DIR$/mybatis-04-limit/mybatis-04-limit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-05-anno/mybatis-05-anno.iml" filepath="$PROJECT_DIR$/mybatis-05-anno/mybatis-05-anno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-06-moreOne/mybatis-06-moreOne.iml" filepath="$PROJECT_DIR$/mybatis-06-moreOne/mybatis-06-moreOne.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-07-oneMore/mybatis-07-oneMore.iml" filepath="$PROJECT_DIR$/mybatis-07-oneMore/mybatis-07-oneMore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-08-dynamicSQL/mybatis-08-dynamicSQL.iml" filepath="$PROJECT_DIR$/mybatis-08-dynamicSQL/mybatis-08-dynamicSQL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-09-cache/mybatis-09-cache.iml" filepath="$PROJECT_DIR$/mybatis-09-cache/mybatis-09-cache.iml" />
+    </modules>
+  </component>
+</project>

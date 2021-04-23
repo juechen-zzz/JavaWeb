@@ -12,15 +12,13 @@
     <modules>
         <module>mybatis-01</module>
         <module>mybatis-02</module>
-        <module>mybatis-03</module>
-        <module>mybatis-04</module>
-        <module>mybatis-05</module>
-        <module>mybatis-06</module>
-        <module>mybatis-07</module>
-        <module>mybatis-07</module>
-        <module>mybatis-07</module>
-        <module>mybatis-08</module>
-        <module>mybatis-09</module>
+        <module>mybatis-03-resultMap</module>
+        <module>mybatis-04-limit</module>
+        <module>mybatis-05-anno</module>
+        <module>mybatis-06-moreOne</module>
+        <module>mybatis-07-oneMore</module>
+        <module>mybatis-08-dynamicSQL</module>
+        <module>mybatis-09-cache</module>
     </modules>
 
     <!--导入依赖-->

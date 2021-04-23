@@ -5,7 +5,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /*
-    用注解的形式
+    2 用注解的形式
  */
 
 @Controller
