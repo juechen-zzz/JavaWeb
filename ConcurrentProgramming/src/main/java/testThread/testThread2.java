@@ -1,7 +1,7 @@
 package testThread;
 
 /**
- * @description: Runnable
+ * @description: 实现Runnable接口
  * @author: Komorebi
  * @time: 2021/4/23 14:56
  */

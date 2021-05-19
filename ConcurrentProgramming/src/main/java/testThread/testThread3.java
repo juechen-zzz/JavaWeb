@@ -6,7 +6,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
 /**
- * @description: Callable
+ * @description: 实现Callable接口
  * @author: Komorebi
  * @time: 2021/4/23 14:59
  */

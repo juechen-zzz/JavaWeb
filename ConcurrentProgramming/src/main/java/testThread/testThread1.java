@@ -1,7 +1,7 @@
 package testThread;
 
 /**
- * @description: Thread
+ * @description: 继承Thread类实现多线程
  * @author: Komorebi
  * @time: 2021/4/23 14:54
  */
