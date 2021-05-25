@@ -1,5 +1,5 @@
 /**
- * @description:
+ * @description: 引用计数算法的缺陷
  * @author: Komorebi
  * @time: 2021/5/19 16:03
  */

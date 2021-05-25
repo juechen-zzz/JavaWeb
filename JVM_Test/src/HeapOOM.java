@@ -2,7 +2,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @description: VM Args：-Xms20m -Xmx20m -XX:+HeapDumpOnOutOfMemoryError
+ * @description:  堆OOM
+ * VM Args：-Xms20m -Xmx20m -XX:+HeapDumpOnOutOfMemoryError
  * @author: Komorebi
  * @time: 2021/5/18 20:30
  */

@@ -1,5 +1,5 @@
 /**
- * @description:
+ * @description: StackOverFlowError
  *      (1) 使用-Xss参数减少栈内存容量
  *      (2) 定义了大量的本地变量，增大此方法帧中本地变量表的长度
  * @author: Komorebi

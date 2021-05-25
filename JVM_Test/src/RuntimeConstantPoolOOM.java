@@ -2,7 +2,8 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @description: VM Args：-XX:PermSize=6M -XX:MaxPermSize=6M
+ * @description: 运行时常量池导致的内存溢出异常
+ * VM Args：-XX:PermSize=6M -XX:MaxPermSize=6M
  * @author: Komorebi
  * @time: 2021/5/19 15:20
  */
