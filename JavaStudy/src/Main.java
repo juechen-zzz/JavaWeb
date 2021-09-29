@@ -1,51 +1,68 @@
 import java.util.*;
 public class Main {
     public static void main(String[] args) {
-        String s = "1 3 5";
-        System.out.println(s.split(" "));       // 返回["1"， "2"， "3"]这个数组
+        Scanner sc = new Scanner(System.in);
 
-        String[] tmp = s.split(" ");
-        String ans = "[";
-        for (int i = 0; i < tmp.length; i++) {
-            ans += ("'" + tmp[i] + "',");
+        int n = sc.nextInt();
+        sc.nextLine();
+
+        int[] nums = new int[n];
+        String[] tmp = sc.nextLine().split(" ");
+        for (int i = 0; i < n; i++) {
+            nums[i] = Integer.parseInt(tmp[i]);
         }
-        System.out.println(ans.substring(0, ans.length() - 1));
+        myMethod(n, nums);
+    }
 
+    private static void myMethod(int n, int[] nums) {
+        int MOD = 1_0000_0000_7;
+        long ans = 0;
+
+        for (int j = 1; j < n; j++) {
+            for (int i = 0; i <= j; i++) {
+                int[] tmp = Arrays.copyOfRange(nums, i, j + 1);
+                int min = Arrays.stream(tmp).min().getAsInt();
+                int max = Arrays.stream(tmp).max().getAsInt();
+                ans = (ans + ((max - min) * (j - i + 1)) % MOD) % MOD;
+            }
+        }
+
+        System.out.println(ans);
+    }
+}
+//public class Main {
+//    public static void main(String[] args) {
 //        Scanner sc = new Scanner(System.in);
 //
-//        int averageScore = sc.nextInt();
 //        int n = sc.nextInt();
 //        sc.nextLine();
 //
-//        int[] nums = new int[n * 2];
-//        for (int i = 0; i < 2 * n; i++) {
-//            nums[i] = sc.nextInt();
+//        int[] nums = new int[n];
+//        String[] tmp = sc.nextLine().split(" ");
+//        for (int i = 0; i < n; i++) {
+//            nums[i] = Integer.parseInt(tmp[i]);
 //        }
-//        myMethod(averageScore, n, nums);
-    }
-
-    private static void myMethod(int averageScore, int n, int[] nums) {
-        int sum = 0;
-        for (int cur : nums) {sum += cur % averageScore;}
-        if (sum != 0) {
-            System.out.println(0);
-        }
-        else {
-            Arrays.sort(nums);
-            String ans = "";
-            for (int i = 2 * n - 1; i >= 0; i--) {
-                if (nums[i] == -2) {continue;}
-                ans += (nums[i] + " ");
-                nums[i] = -2;
-                for (int j = i - 1; j >= 0; j--) {
-                    if (nums[j] == -2) {continue;}
-                    if ((nums[i] + nums[j]) % averageScore == 0) {
-                        ans += (nums[j] + " ");
-                        nums[j] = -2;
-                    }
-                }
-            }
-            System.out.println(ans.substring(0, ans.length() - 1));
-        }
-    }
-}
+//
+//        int k = sc.nextInt();
+//        myMethod(n, nums, k);
+//    }
+//
+//    private static void myMethod(int n, int[] nums, int k) {
+//        int end = 0, maxPosition = 0, steps = 0;
+//
+//        for(int i = 0; i < nums.length - 1; i++){
+//            maxPosition = Math.max(maxPosition, nums[i] + i);
+//            if(i == end){
+//                end = maxPosition;
+//                steps++;
+//            }
+//        }
+//
+//        if (steps <= k) {
+//            System.out.println(steps);
+//        }
+//        else {
+//            System.out.println(-1);
+//        }
+//    }
+//}
