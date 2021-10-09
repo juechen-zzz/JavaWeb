@@ -1,4 +1,4 @@
-package thread;
+package thread.create;
 
 /**
  * @description: Thread创建线程

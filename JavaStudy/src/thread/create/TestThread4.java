@@ -1,4 +1,4 @@
-package thread;
+package thread.create;
 
 /**
  * @description: 模拟多用户买票场景

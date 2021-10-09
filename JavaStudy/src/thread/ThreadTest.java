@@ -1,3 +1,5 @@
+package thread;
+
 /**
  * @description: 两个线程交替打印奇数和偶数
  * @author: Komorebi

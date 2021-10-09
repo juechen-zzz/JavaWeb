@@ -1,4 +1,4 @@
-package thread;
+package thread.create;
 
 /**
  * @description: 模拟龟兔赛跑

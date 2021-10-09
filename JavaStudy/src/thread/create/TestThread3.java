@@ -1,4 +1,4 @@
-package thread;
+package thread.create;
 
 /**
  * @description: Runnable接口创建线程
