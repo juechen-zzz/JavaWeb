@@ -42,37 +42,4 @@ public class HashMapUtils {
             System.out.println(curList.get(i).getKey() + "--" + curList.get(i).getValue());
         }
     }
-
-//    private static void sortMapByValue1(Map<String, Integer> map) {
-//        List<Map.Entry<String, Integer>> curList = new ArrayList<>(map.entrySet());
-//        curList.sort(Map.Entry.comparingByValue());
-//
-//        for (int i = 0; i < curList.size(); i++) {
-//            System.out.println(curList.get(i).getKey() + "--" + curList.get(i).getValue());
-//        }
-//    }
-//
-//    /**
-//     * @description  对Map<Character, Integer>的值降序排列，并输出
-//     */
-//    private static void sortMapByValue2(Map<String, Integer> map) {
-//        List<Map.Entry<String, Integer>> curList = new ArrayList<>(map.entrySet());
-//        curList.sort((o1, o2) -> o2.getValue().compareTo(o1.getValue()));
-//
-//        for (int i = 0; i < curList.size(); i++) {
-//            System.out.println(curList.get(i).getKey() + "--" + curList.get(i).getValue());
-//        }
-//    }
-//
-//    /**
-//     * @description 对Map<Integer, String>的键降序排列，并输出
-//     */
-//    private static void sortMapByKey(Map<Integer, String> map) {
-//        List<Map.Entry<Integer, String>> curList = new ArrayList<>(map.entrySet());
-//        curList.sort((o1, o2) -> o2.getKey().compareTo(o1.getKey()));
-//
-//        for (int i = 0; i < curList.size(); i++) {
-//            System.out.println(curList.get(i).getKey() + "--" + curList.get(i).getValue());
-//        }
-//    }
 }
