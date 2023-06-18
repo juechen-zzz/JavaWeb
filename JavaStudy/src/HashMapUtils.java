@@ -25,7 +25,7 @@ public class HashMapUtils {
 //        curList.sort((o1, o2) -> o2.getKey().compareTo(o1.getKey()));
         // 按value升序
 //        curList.sort(Map.Entry.comparingByValue());
-        // 按value升序
+        // 按value降序
 //        curList.sort((o1, o2) -> o2.getValue().compareTo(o1.getValue()));
 
         // 完整展开形式，value相同时，默认key升序
